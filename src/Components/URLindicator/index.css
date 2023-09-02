@@ -1,0 +1,31 @@
+.usl-indicator-inner-container {
+  margin: 10px auto;
+  background-color: #fff9f7;
+  width: 1300px;
+  padding: 40px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.half-part {
+  background-color: white;
+  padding: 20px 30px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  min-height: 300px;
+  min-width: 500px;
+}
+
+.url-highlighted-text {
+  color: #ff5821;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.spanned-text {
+  color: #ff5821;
+}

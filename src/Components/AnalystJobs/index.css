@@ -1,0 +1,118 @@
+/* <<<<<<< HEAD */
+/* ======= */
+.heading-container {
+  display: inline-block;
+  font-size: 15px;
+  align-self: flex-end;
+  margin-right: 75px;
+  padding-bottom: 5px;
+}
+
+.title-and-search-container-for-analyst {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.final-search-container {
+  display: inline-block;
+}
+
+.jobsList-title {
+  font-size: 33px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Lora", serif;
+  font-weight: 600;
+}
+
+.first-letters {
+  font-family: "Roboto Slab", serif;
+  font-size: 37px;
+  font-weight: bold;
+  color: #ff5821;
+}
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.table-container-for-analyst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-image: linear-gradient(90deg, #d3d3d3, #ccd4d4);
+  /* background-image: linear-gradient(90deg,#cdd4d4,#ccd4d4); */
+  width: 1300px;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  padding-bottom: 50px;
+}
+
+.table-for-analyst {
+  margin-top: 30px;
+  width: 1200px;
+  border-collapse: collapse;
+}
+
+.table-for-analyst th,
+.table-for-analyst td {
+  padding: 10px;
+  text-align: left;
+}
+
+.table-for-analyst th {
+  background-color: #f5f5f5;
+  background-color: #778899;
+}
+
+.table-for-analyst tbody tr:nth-child(even) {
+  /* background-image: linear-gradient(90deg,#d3d3d3,#ccd4d4); */
+  background-color: #f9f9f9;
+  /* background-color: #e3e3e3; */
+}
+
+.table-for-analyst tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+  /* background-color: #e3e3e3; */
+}
+
+.table-for-analyst tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+th {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #999;
+  color: black;
+}
+
+td {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #999;
+  color: black;
+}
+
+.outer-title-and-search-container-for-analyst {
+  display: flex;
+  justify-content: center;
+}
+
+.hr-for-analystJobs {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: #778899;
+  border: 0;
+  opacity: 0.25;
+}
+
+.hr-for-analystJobs:not([size]) {
+  height: 1.7px;
+}
+/* >>>>>>> 1b83a705a88c4ca9a30379ac815590f4e195b1a6 */

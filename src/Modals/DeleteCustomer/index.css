@@ -1,0 +1,64 @@
+.modal-parent {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-body {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 4px;
+  padding-bottom: 20px;
+}
+
+.modal-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff9f7;
+  padding: 20px;
+}
+
+.modal-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.modal-close-btn {
+  background-color: transparent;
+  color: #999;
+  border: 0px;
+}
+
+.modal-close-btn:hover {
+  color: #ff5821;
+  font-weight: 600;
+}
+
+.modal-description {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-description ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.modal-buttons-container {
+  text-align: right;
+  margin-top: 10px;
+}

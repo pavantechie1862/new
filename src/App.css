@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  color: #999;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.navigaton-link-btn {
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+select,
+textarea,
+input,
+button {
+  outline: none;
+  background-color: #fff;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #ff5821;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #ff5821;
+  margin-right: 10px;
+}
+
+.outline {
+  background-color: transparent;
+  color: #ff5821;
+  border: 1px solid #ff5821;
+}
+
+.sq-btn {
+  border-radius: 0px;
+  margin: 0px;
+}
+
+/** Forms */
+
+.label-text {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.input-field-100 {
+  padding: 8px 10px;
+  width: 600px;
+  margin: 4px 0px 18px 0px;
+  border: 1px solid #999;
+  border-radius: 2px;
+  display: block;
+}
+
+select:focus,
+input:focus,
+.input-field-100:focus {
+  border-color: #ff5821;
+}
+textarea::placeholder,
+input::placeholder {
+  color: #c5c2c2;
+}
+
+::selection {
+  background-color: #ff5821;
+  color: #fff;
+}
+
+.textarea-field {
+  resize: none;
+  width: 600px;
+}
+
+.highlighted-text {
+  color: #ff5821;
+}
+

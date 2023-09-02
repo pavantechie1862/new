@@ -1,0 +1,44 @@
+.list-orders-inner-container {
+  width: 1300px;
+  background-color: #fff9f7;
+  margin: 0px auto;
+}
+
+/* * */
+.filter-elements-container {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.filter-dropdown {
+  flex-grow: 1;
+}
+
+.table-height-restricted {
+  max-height: 70vh;
+  overflow-y: auto;
+  border-bottom: 1px solid #999;
+  display: flex;
+  flex-direction: column;
+}
+
+select,
+input {
+  border: 1px solid #999;
+}
+
+input {
+  padding: 0px 10px;
+}
+
+.table-height-restricted,
+.list-orders-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin-top: 0px !important;
+}
+
+.list-orders-container::-webkit-scrollbar,
+.table-height-restricted::-webkit-scrollbar {
+  display: none;
+}

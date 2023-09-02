@@ -1,0 +1,278 @@
+.search-container-performaInvoice {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 600px;
+  max-width: 600px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+  background-image: linear-gradient(90deg, #d3d3d3, #ccd4d4);
+}
+
+.search-input-performaInvoice {
+  width: 320px;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.filter-select-performaInvoice {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  color: #333;
+  cursor: pointer;
+  width: 130px;
+}
+
+.filter-select-performaInvoice option {
+  background-color: white;
+  color: #333;
+}
+
+.filter-select-performaInvoice option:checked {
+  background-color: #4caf50;
+  color: white;
+}
+
+.filter-select-performaInvoice:hover {
+  background-color: #e0e0e0;
+}
+
+.search-input-performaInvoice:focus,
+.filter-select:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.4);
+}
+
+.search-input-performaInvoice::placeholder {
+  color: #999;
+}
+
+.search-icon-performaInvoice {
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.search-icon-container-performaInvoice {
+  min-width: 350px;
+  display: flex;
+}
+
+.heading-container-for-performaInvoice {
+  display: inline-block;
+  font-size: 15px;
+  align-self: flex-end;
+  margin-right: 75px;
+  padding-bottom: 5px;
+}
+
+.title-and-search-container-for-performaInvoice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 19px;
+  width: 1300px;
+  padding-bottom: 25px;
+}
+
+.final-search-container-for-performaInvoice {
+  display: inline-block;
+}
+
+.performaInvoice-title {
+  font-size: 33px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Lora", serif;
+  font-weight: 600;
+}
+
+.first-letters {
+  font-family: "Roboto Slab", serif;
+  font-size: 37px;
+  font-weight: bold;
+  color: #ff5821;
+}
+
+.outer-container-for-performaTable {
+  display: flex;
+  justify-content: center;
+}
+
+.table-container-for-performaTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  /* background-image: linear-gradient(90deg,#cdd4d4,#ccd4d4); */
+  background-image: linear-gradient(90deg, #d3d3d3, #ccd4d4);
+  width: 1300px;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  padding-bottom: 50px;
+}
+
+.performaList-table {
+  margin-top: 30px;
+  width: 1200px;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.table-head-performaList {
+  /* background-color: #f5f5f5; */
+  background-color: #778899;
+}
+
+.table-body-performaList tr:nth-child(even) {
+  background-color: #f9f9f9;
+  /* background-color: #e3e3e3; */
+}
+
+.table-body-performaList tr:nth-child(odd) {
+  background-color: #f9f9f9;
+  /* background-color: #e3e3e3; */
+}
+
+.table-body-performaList tr:hover {
+  background-color: #f0f0f0;
+}
+
+.table-head-performaList {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #999;
+  color: #292828;
+}
+
+.table-body-performaList {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #999;
+  color: black;
+}
+
+.outer-title-and-search-container-for-performaInvoice {
+  display: flex;
+  justify-content: center;
+}
+
+.hr-for-performaInvoice {
+  margin: 1rem 0;
+  color: inherit;
+
+  background-color: #778899;
+  border: 0;
+  opacity: 0.25;
+}
+
+.hr-for-performaInvoice:not([size]) {
+  height: 1.7px;
+}
+
+.tax-button-for-performaInvoice {
+  width: 100px;
+  height: 30px;
+  background-color: #f57542;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: "roboto";
+}
+
+.tax-button-for-performaInvoice:hover {
+  background-color: #bf3a06;
+}
+
+.filter-select-to-updateInvoice {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  color: #333;
+  cursor: pointer;
+  width: 130px;
+  border-style: solid;
+  border-color: #333;
+  border-width: 1px;
+}
+
+.filter-select-to-updateInvoice option {
+  background-color: white;
+  color: #333;
+}
+
+.filter-select-to-updateInvoice option:checked {
+  background-color: #4caf50;
+
+  color: white;
+}
+
+.filter-select-to-updateInvoice:hover {
+  background-color: #e0e0e0;
+}
+
+.filter-select-to-updateInvoice:focus {
+  outline: none;
+  border-color: #f57542;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.4);
+}
+
+.performaInvoice-selectButton {
+  width: 100px;
+  height: 30px;
+  background-color: #f57542;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: "roboto";
+  margin-right: 20px;
+}
+
+.performaInvoice-selectButton:hover {
+  background-color: #bf3a06;
+}
+
+.performaInvoice-signButton {
+  width: 100px;
+  height: 30px;
+  background-color: #f57542;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: "roboto";
+}
+
+.performaInvoice-signButton:hover {
+  background-color: #bf3a06;
+}
+
+.performaInvoice-buttons-container {
+  align-self: flex-start;
+  margin-left: 30px;
+  margin-top: 22px;
+}

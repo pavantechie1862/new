@@ -1,0 +1,8 @@
+/* customer-item-stylings */
+
+.customers-list-inner-container {
+  width: 1300px;
+  margin: 0px auto;
+  background-color: #fff9f7;
+  padding-top: 30px;
+}

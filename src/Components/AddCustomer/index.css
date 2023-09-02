@@ -1,0 +1,16 @@
+.add-customer-body {
+  width: 1300px;
+  margin: 0px auto;
+  background-color: #fff9f7;
+}
+
+.add-customer-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+
+.add-customer-fields {
+  display: flex;
+  flex-direction: column;
+}

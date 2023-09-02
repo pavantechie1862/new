@@ -1,0 +1,131 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  height: 90px;
+}
+
+.kdm-logo {
+  width: 105px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.header-inner-container {
+  width: 1300px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: space-around;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+}
+
+/* .navbar a i, */
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: #ff5821;
+}
+
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 14px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff9f7;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar .dropdown ul li:hover {
+  background-color: #fff;
+}
+
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+}
+
+.navbar .dropdown span,
+.navbar .dropdown img {
+  cursor: pointer;
+}
+
+.navbar .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar .dropdown .dropdown:hover > ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+
+#login-out-btn {
+  border: 1px solid #ff5821;
+  text-align: center;
+  color: #ff5821;
+  border-radius: 4px;
+  padding: 10px 24px;
+  margin: 20px 0px 20px 10px;
+}
+
+#login-out-btn:hover {
+  background-color: #ff5821;
+  color: white;
+  transition: 0.1s;
+}
+
+.profile-avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 8px;
+}
